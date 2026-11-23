@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <!-- Windows subsystem: set to WinExe for silent background, Exe for console (dev) -->
+    <!-- For M1 dev: keep as Exe for debugging. M10 will switch to WinExe with tray icon. -->
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ipc-contracts\ControlHub.IpcContracts\ControlHub.IpcContracts.csproj" />
+  </ItemGroup>
+</Project>

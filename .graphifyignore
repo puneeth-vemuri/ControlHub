@@ -1,0 +1,9 @@
+# Local tools, build output, runtime data, and generated graph renderings.
+.tools/
+.venv/
+**/.venv/
+**/__pycache__/
+apps/mobile/.dart_tool/
+apps/mobile/build/
+backend/data/
+graphify-out/

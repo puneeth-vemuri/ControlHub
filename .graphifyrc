@@ -1,0 +1,4 @@
+# Keep everyday graph answers compact; deepen a query only when the task needs it.
+query_budget=1500
+query_depth=2
+viz_node_limit=1200
